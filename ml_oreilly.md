@@ -41,11 +41,11 @@ Challenges of Machine Learning
 
 Key Terms:
 * Regularization: Constraining a model to make it simplier and reduce the risk of overfitting
-* Hyperparemeter: a parameter of a learning algorithim: Used and set prior to training and remains constant during training
+* Hyperparemeter: a parameter of a learning algorithm: Used and set prior to training and remains constant during training
 
 Cross validation
 * Training set ==> Test Set
 * Training set ==> validation set ==> test set (If you want to test parameters)
 	+ Training set split into complementary subsets, and each model is trained against a different combination of these subsets and validated against the remaining parts. 
-	+ Once th emodel type and hyperparameter have been selected, a final model is trained using these hyperparameters on the full training set, and the generalized error is measured on the test set
+	+ Once the model type and hyperparameter have been selected, a final model is trained using these hyperparameters on the full training set, and the generalized error is measured on the test set
 
